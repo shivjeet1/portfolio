@@ -1,0 +1,89 @@
+/* Reset some default styles */
+* {
+    margin: 10;
+    padding: 0;
+    box-sizing: border-box;
+    
+  }
+  
+  body {
+    font-family: "Bebas Neue", sans-serif;
+    font-weight: 300;
+    line-height: 1.6;
+    background-image: url('RDT_20240305_1323226970050732454072748.jpg');
+   
+    background-size: cover;
+    background-position: center;
+  }
+  
+  header {
+    font-family: 'Times New Roman', Times, serif;
+    background-size: calc(1030);
+    background-color: #333;
+    color: #ffaf01;
+    padding: 20px;
+  }
+  
+  header h1 {
+    margin: 0;
+  }
+  
+  nav ul {
+    list-style-type: disc;
+  }
+  
+  nav ul li {
+    display: inline;
+    margin-right: 20px;
+  }
+  
+  nav ul li a {
+    color: #d1d4f2;
+    text-decoration-style: wavy;
+    box-decoration-break: slice;
+  }
+  
+  main {
+    padding: 20px;
+  }
+  
+  section {
+    margin-bottom: 30px;
+  }
+  
+  h2 {
+    margin-bottom: 10px;
+  }
+  
+  .project {
+    border: 1px solid #ccc;
+    padding: 10px;
+    margin-bottom: 20px;
+  }
+  
+  .project:hover{
+    backdrop-filter: blur(5px);
+    transition: 3s;
+    padding: 20px;
+  
+  }
+
+  footer {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+  }
+  .box-button {
+    display: inline-block;
+    padding: 10px 20px;
+    font-size: 16px;
+    font-weight: bold;
+    text-transform: uppercase;
+    color: #fff;
+    background-color: #00a2ff;
+    border-style: groove;
+    border-radius: 5px;
+    cursor: pointer;
+    
+  }
