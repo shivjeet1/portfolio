@@ -15,7 +15,9 @@
     background-size: cover;
     background-position: center;
   }
-  
+  .block{
+    width: 800px;
+  }
   header {
     font-family: 'Times New Roman', Times, serif;
     background-size: calc(1030);
